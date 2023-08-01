@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form action="https://formspree.io/f/mknlobro" method="post">
+        <lable for="Name">NAME</lable>
+        <input type="text" name="name" required>
+        <lable for="E-Mail">E-Mail</lable>
+        <input type="email" name="email" required>
+        <lable for="Password">PASSWORD</lable>
+        <input type="Password" name="Password" required>
+        <lable for="Phonenumber">PHONENUMBER</lable>
+        <input type="tel" name="tel" required>
+        <lable for="Gender">GENDER</lable>
+        <select id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <lable for="Zipcode">ZIPCODE</lable>
+        <input type="number" name="number" required>
+        <lable for="About">ABOUT</lable>
+        <input type="textarea" name="About" required>
+        <div id="Submit">
+            <input type="Submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
